@@ -60,7 +60,6 @@ public class HeroTester {
     @Test
     public void TestFightToTheDeathNTimes() {
         setUp();
-
         int numberOfFights = 100;
 
         String result = hero1.nFightsToTheDeath(hero2, numberOfFights);
